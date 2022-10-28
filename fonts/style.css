@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Parmigiano Piccolo Pro';
+    src: local('Parmigiano Piccolo Pro Thin Italic'), local('Parmigiano-Piccolo-Pro-Thin-Italic'),
+        url('ParmigianoPiccoloPro-ThinIta.woff2') format('woff2'),
+        url('ParmigianoPiccoloPro-ThinIta.woff') format('woff'),
+        url('ParmigianoPiccoloPro-ThinIta.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }

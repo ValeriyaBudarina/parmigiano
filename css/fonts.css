@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Bold'), local('Parmigiano-Piccolo-Pro-Bold'),
+    url('../fonts/ParmigianoPiccoloPro-Bld.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-Bld.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-Bld.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Bold Italic'), local('Parmigiano-Piccolo-Pro-Bold-Italic'),
+    url('../fonts/ParmigianoPiccoloPro-BldIta.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-BldIta.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-BldIta.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Black'), local('Parmigiano-Piccolo-Pro-Black'),
+    url('../fonts/ParmigianoPiccoloPro-Blk.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-Blk.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-Blk.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Black Italic'), local('Parmigiano-Piccolo-Pro-Black-Italic'),
+    url('../fonts/ParmigianoPiccoloPro-BlkIta.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-BlkIta.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-BlkIta.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Light'), local('Parmigiano-Piccolo-Pro-Light'),
+    url('../fonts/ParmigianoPiccoloPro-Lt.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-Lt.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-Lt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Light Italic'), local('Parmigiano-Piccolo-Pro-Light-Italic'),
+    url('../fonts/ParmigianoPiccoloPro-LtIta.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-LtIta.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-LtIta.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Medium'), local('Parmigiano-Piccolo-Pro-Medium'),
+    url('../fonts/ParmigianoPiccoloPro-Med.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-Med.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-Med.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Medium Italic'), local('Parmigiano-Piccolo-Pro-Medium-Italic'),
+    url('../fonts/ParmigianoPiccoloPro-MedIta.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-MedIta.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-MedIta.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Regular'), local('Parmigiano-Piccolo-Pro-Regular'),
+    url('../fonts/ParmigianoPiccoloPro-Reg.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-Reg.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-Reg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Italic'), local('Parmigiano-Piccolo-Pro-Italic'),
+    url('../fonts/ParmigianoPiccoloPro-RegIta.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-RegIta.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-RegIta.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Thin'), local('Parmigiano-Piccolo-Pro-Thin'),
+    url('../fonts/ParmigianoPiccoloPro-Thin.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-Thin.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parmigiano Piccolo Pro';
+  src: local('Parmigiano Piccolo Pro Thin Italic'), local('Parmigiano-Piccolo-Pro-Thin-Italic'),
+    url('../fonts/ParmigianoPiccoloPro-ThinIta.woff2') format('woff2'),
+    url('../fonts/ParmigianoPiccoloPro-ThinIta.woff') format('woff'),
+    url('../fonts/ParmigianoPiccoloPro-ThinIta.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}

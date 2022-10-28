@@ -1,0 +1,272 @@
+@import 'fonts.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Parmigiano Piccolo Pro", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 65px;
+  padding-right: 65px;
+  position: relative;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.banner {
+  position: relative;
+  height: 1040px;
+}
+
+.banner__tag {
+  width: 350px;
+  height: 559px;
+  background: url('../images/birka.png');
+  position: absolute;
+  top: 0;
+  right: 20%;
+}
+
+.banner__vector-left {
+  width: 914px;
+  height: 1040px;
+  background: url('../images/vector_1.png');
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.banner__vector-right {
+  width: 343px;
+  height: 1040px;
+  background: url('../images/vector_2.png');
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about {
+  padding: 175px 0;
+  position: relative;
+}
+
+.about::after {
+  content: "Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив!";
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 48px;
+  word-break: break-all;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.about__title {
+  font-size: 230px;
+  font-weight: 400;
+  line-height: 230px;
+  margin-top: 0;
+  margin-bottom: 175px;
+}
+
+.about__text {
+  font-size: 55px;
+  line-height: 85px;
+}
+
+.qualities {
+  padding-top: 150px;
+  padding-bottom: 120px;
+  padding-left: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.qualities::before {
+  content: "Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив!";
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 48px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  transform: rotate(-90deg) translateX(-1060px);
+  transform-origin: 0 0;
+}
+
+.qualities::after {
+  content: "Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив!";
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 48px;
+  height: 48px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  transform: rotate(90deg) translateX(335px);
+  transform-origin: 100% 0;
+}
+
+.qualities__title {
+  font-size: 75px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 75px;
+  margin: 0 0 100px;
+}
+
+.qualities__list {
+  margin: 0;
+  max-width: 1130px;
+}
+
+.qualities__list li {
+  font-size: 55px;
+  line-height: 85px;
+}
+
+.home {
+  padding: 270px 0 170px;
+  position: relative;
+  overflow: hidden;
+}
+
+.home::before {
+  content: "Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив! Бодони жив!";
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 48px;
+  word-break: break-all;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.home__vector {
+  width: 1257px;
+  height: 1381px;
+  background: url('../images/home.png');
+  margin: 0 auto;
+}
+
+.home__ribbon {
+  width: 1305px;
+  height: 376px;
+  background: url('../images/ribbon.png');
+  margin: 230px auto 0;
+}
+
+.styles {
+  padding: 65px 0;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.styles p {
+  font-size: 55px;
+  line-height: 155px;
+  margin: 0;
+}
+
+.authors {
+  padding: 275px 0;
+  text-align: center;
+}
+
+.authors__ilustration {
+  width: 1437px;
+  height: 653px;
+  background: url('../images/alphabet.png');
+  margin: 0 auto;
+}
+
+.authors__ilustration-2 {
+  width: 1292px;
+  height: 743px;
+  background: url('../images/aa.png');
+  margin: 0 auto;
+}
+
+.authors__text {
+  font-size: 64px;
+  line-height: 85px;
+  margin: 240px auto 300px;
+  max-width: 935px;
+}
+
+.authors__text-2 {
+  font-size: 55px;
+  line-height: 85px;
+  text-align: left;
+  margin: 240px 0 185px;
+}
+
+.footer {
+  padding-bottom: 370px;
+  text-align: center;
+}
+
+.footer__ticket {
+  width: 1271px;
+  height: 715px;
+  background: url('../images/ticket.png');
+  margin: 0 auto 344px;
+}
+
+.footer__ciao {
+  width: 1647.55px;
+  height: 721.76px;
+  top: 14600px;
+  left: -98px;
+  background: url('../images/ciao.png');
+  margin: 0 auto;
+}
